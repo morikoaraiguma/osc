@@ -24,7 +24,7 @@ while True:
     else:
         print("sorry, i didn't understand that.")
 lazy = str(lazy)
-code = lazy+","+name+","+object
+code = name+"#"+object+"#"+lazy
 print("here is your chapter code. please keep it saved for the next chapter.")
 print(code)
 print("end of prologue. thank you for playing!")
