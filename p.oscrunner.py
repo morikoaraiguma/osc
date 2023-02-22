@@ -24,3 +24,4 @@ while True:
     else:
         print("sorry, i didn't understand that.")
 print("end of prologue. thank you for playing!")
+print("YOU SUCK AND ARE VERY DUMB!!!")
