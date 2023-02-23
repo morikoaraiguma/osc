@@ -1,13 +1,11 @@
 ##
 #prologue to my little object show sim
 #2/15/23 - 2/22/23
-lazy = 0
 name = input("hello! whta is your name? ")
 object = input("and whta is your object? ")
 code = 0
 print("loading prologue...")
-print("you are chilling by yourself when out of nowhere,\na small red envelope",
-      "falls from the sky and lands right in front of you.")
+print("you are chilling by yourself when out of nowhere,\na small red envelope falls from the sky\n and lands right in front of you.")
 while True:
     yesno = input("open it? ")
     if yesno == "yes":
@@ -18,13 +16,11 @@ while True:
     elif yesno == "no":
         print("no reason to do that, anyway.")
         print("THE END.")
-        print("(somewhere in the distance, a trophy appears on a shelf.)")
-        lazy = 1
+        print("thank you for playing!")
         break
     else:
         print("sorry, i didn't understand that.")
-lazy = str(lazy)
-code = name+"#"+object+"#"+lazy
+code = name+"#"+object
 print("here is your chapter code. please keep it saved for the next chapter.")
 print(code)
 print("end of prologue. thank you for playing!")
